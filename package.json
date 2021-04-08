@@ -1,0 +1,46 @@
+{
+  "name": "stock-anaylsis",
+  "version": "1.0.0",
+  "description": "stock anaylsis",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamin0809/stock-analysis.git"
+  },
+  "keywords": [
+    "stock",
+    "anaylsis",
+    "chives",
+    "benjamin0809",
+    "vue",
+    "bff"
+  ],
+  "author": "Benjamin0809",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjamin0809/stock-analysis/issues"
+  },
+  "homepage": "https://github.com/benjamin0809/stock-analysis#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.21.0",
+    "@typescript-eslint/parser": "^4.21.0",
+    "css-loader": "^5.2.0",
+    "eslint": "^7.23.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-vue": "^7.8.0",
+    "ts-loader": "^8.1.0",
+    "typescript": "^4.2.4",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.6",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.31.0",
+    "webpack-cli": "^4.6.0"
+  }
+}
