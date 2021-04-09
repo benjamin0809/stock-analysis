@@ -10,10 +10,8 @@ export default class Utils {
         cal += `${cur}=${param[cur]}&`
         return cal
       }, flag)
-      return str.substring(0, str.length - 1)
+      return url + str.substring(0, str.length - 1)
     }
     return url
   }
 }
-
-Utils.formatUrl('123', { key: '123' })

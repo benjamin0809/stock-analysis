@@ -4,7 +4,7 @@
   "description": "stock anaylsis",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,17 @@
     "url": "https://github.com/benjamin0809/stock-analysis/issues"
   },
   "homepage": "https://github.com/benjamin0809/stock-analysis#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-typescript": "^7.13.0",
+    "babel-jest": "^26.6.3",
+    "typescript": "^4.2.4",
+    "vue": "^2.6.12",
+    "webpack": "^5.31.0"
+  },
   "devDependencies": {
+    "@types/jest": "^26.0.22",
     "@typescript-eslint/eslint-plugin": "^4.21.0",
     "@typescript-eslint/parser": "^4.21.0",
     "css-loader": "^5.2.0",
@@ -35,12 +44,14 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-vue": "^7.8.0",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.4",
     "ts-loader": "^8.1.0",
-    "typescript": "^4.2.4",
-    "vue": "^2.6.12",
     "vue-loader": "^15.9.6",
     "vue-template-compiler": "^2.6.12",
-    "webpack": "^5.31.0",
     "webpack-cli": "^4.6.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
